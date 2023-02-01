@@ -28,70 +28,64 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
+    <!-- Added timeblock for each working hour using bootstrap classes -->
     <div class="container">
-      <div class="container" id="9">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">9:00</p>
-            <div class="inputText col-sm-8" id ="9"><textarea class="form-control" id="textarea"></textarea></div>
-            <button class="saveBtn col-sm-2">Save</button>
+        <div class="row time-block" id="9">
+          <div class="col-1 hour pt-2">9AM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="10">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">10:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div>
-            <button class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="10">
+          <div class="col-1 hour pt-2">10AM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="11">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">11:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="11">
+          <div class="col-1 hour pt-2">11AM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="12">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">12:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="12">
+          <div class="col-1 hour pt-2" value="12PM">12PM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="13">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">1:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="13">
+          <div class="col-1 hour pt-2">1PM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="14">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">2:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="14">
+          <div class="col-1 hour pt-2">2PM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="15">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">3:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="15">
+          <div class="col-1 hour pt-2">3PM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="16">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">4:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="16">
+          <div class="col-1 hour pt-2">4PM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
-    <div class="container" id="17">
-        <div class="row h-100">
-            <p class="col-sm-1 my-auto time-block">5:00</p>
-            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-                class="saveBtn col-sm-2">Save</button>
+  
+        <div class="row time-block" id="17">
+          <div class="col-1 hour pt-2">5PM</div>
+          <textarea class="col-10 plan"></textarea>
+          <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
         </div>
-    </div>
+      </div>
+  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
